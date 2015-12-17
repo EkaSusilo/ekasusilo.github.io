@@ -16,6 +16,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
+    <link href="css/youtube-player.css" rel="stylesheet" type="text/css">
     <link href="css/scrollbar.css" rel="stylesheet" type="text/css">
     <link href="css/lightgallery.css" rel="stylesheet" type="text/css">
     <link href="css/colors.css" rel="stylesheet" type="text/css">
@@ -52,16 +53,21 @@
             </ul>
         </nav>
     </div>
-    <div id="cv-page-left"></div>
+    <div id="cv-page-left">
+        <!-- YOUTUBE VIDEO  -->
+        <div class="cv-youtube-player" data-property="{videoURL:'http://youtu.be/keDneypw3HY',containment:'#cv-page-left',startAt:0,stopAt:0,mute:true,autoPlay:true,loop:false,quality:'large',showControls:true,showYTLogo:true}">
+        </div>
+    </div>
     <div id="cv-page-right">
-        <!-- THIS IMAGE WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
-        <div class="img-mobile-only">
-            <img src="images/photos/1000.png" alt="" />
+        <!-- THIS VIDEO WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+        <div class="video-mobile-only">
+            <div class="flex-video">
+                <iframe src="http://www.youtube.com/embed/keDneypw3HY?wmode=transparent"></iframe>
+            </div>
         </div>
         <!-- POST -->
         <article class="cv-page-content">
-            <h1 class="border">Single Post</h1>
-            <p class="page-date">21 May 2015</p>
+            <h1 class="border">Page with Video</h1>
             <p>Voluptate illum dolore ita ipsum, quid deserunt singulis, labore admodum ita multos malis ea nam nam tamen fore amet. Vidisse quid incurreret ut ut possumus transferrem si ita labore dolor si appellat, aut dolore doctrina. Commodo dolor esse in magna, a a multos senserit nam si aliqua iis multos.</p>
             <!-- FLEX IMAGE -->
             <figure class="caption-image">
@@ -71,53 +77,34 @@
                 <figcaption>Voluptate illum dolore</figcaption>
             </figure>
             <p>Appellat elit senserit litteris ubi ne eram voluptate commodo si aliqua occaecat ad quem enim, eram domesticarum fabulas quorum doctrina ut commodo efflorescere aut possumus. Cillum praetermissum mentitum quem cupidatat. Veniam a arbitror iis malis ab quo duis cupidatat. Tempor quem occaecat. Nescius si malis, non occaecat ne mentitum.</p>
-            <!-- BLOCKQUOTE -->
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia ipsum quis diam aliquam vel mollis nisi tempus. Nam et ante urna. Nescius si malis, non occaecat ne mentitum.</p>
-            </blockquote>
+            <!-- ACCORDION -->
+            <div id="accordion-container">
+                <!-- ITEM 1 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-paint-brush"></i> Appellat elit</strong>
+                </div>
+                <div class="accordion-content">
+                    <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                </div>
+                <!-- ITEM 2 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-clock-o"></i> Voluptate commodo</strong>
+                </div>
+                <div class="accordion-content">
+                    <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                </div>
+                <!-- ITEM 3 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-cloud"></i> Tempor quem</strong>
+                </div>
+                <div class="accordion-content">
+                    <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                </div>
+                <!-- ITEM 4 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-support"></i> Nescius si malis</strong>
+                </div>
+                <div class="accordion-content">
+                    <p>Vestibulum porta, tortor elementum luctus dictum, est odio egestas justo, dapibus aliquet sem nisl vel augue. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum. Nam laoreet pulvinar eros, sit amet sodales est venenatis eu. Fusce eu sapien tortor, a consequat nunc. Nunc pulvinar consequat turpis, sed vulputate nibh lacinia rutrum.</p>
+                </div>
+            </div>
             <p>Anim admodum o possumus. Ea eu nisi senserit, eiusmod elit sunt cupidatat fugiat. Ad an tamen eiusmod, incurreret eram proident. Et noster quem e tempor. Non culpa exquisitaque. Aut enim graviterque. Ne cupidatat illustriora.</p>
-            <hr />
-            <h3 class="border">Comments</h3>
-            <!-- COMMENTS -->
-            <!-- COMMENT 1 -->
-            <div>
-                <p class="meta">
-                    <a href="#">John Doe</a> - August 19, 2014 - <a href="#">Reply</a>
-                </p>
-                <div class="comments_content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sapien odio, sit amet scelerisque felis. Maecenas tincidunt ligula eu magna tincidunt eget erat malesuada. Ut in diam et metus facilisis venenatis sit amet vel enim. Duis semper elementum felis.</p>
-                </div>
-            </div>
-            <!-- COMMENT REPLY -->
-            <div class="reply">
-                <p class="meta">
-                    <a href="#">Tom Black</a> - August 21, 2014 - <a href="#">Reply</a>
-                </p>
-                <div class="comments_content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sapien odio, sit amet felis scelerisque felis. Maecenas tincidunt ligula eu magna tincidunt eget erat males. Ut in diam et metus facilisis venenatis sit amet vel enim. Duis semper elementum felis.</p>
-                </div>
-            </div>
-            <!-- COMMENT 2 -->
-            <div>
-                <p class="meta">
-                    <a href="#">Henry Ford</a> - August 15, 2014 - <a href="#">Reply</a>
-                </p>
-                <div class="comments_content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sapien odio, sit amet scelerisque felis. Maecenas tincidunt ligula eu magna tincidunt eget erat malesuada. Ut in diam et metus facilisis venenatis sit amet vel enim. Duis semper elementum felis.</p>
-                </div>
-            </div>
-            <hr />
-            <!-- COMMENT FORM -->
-            <h3 class="border">Write a Comment</h3>
-            <form class="comment-form">
-                <label>Your Name</label>
-                <input id="senderName" type="text" maxlength="50" required="required" />
-                <label>Your E-mail</label>
-                <input id="senderEmail" type="text" maxlength="50" required="required" />
-                <label>Your Comment</label>
-                <textarea id="comment" required="required"></textarea>
-                <input type="submit" class="cv-button primary" value="Send Comment" />
-            </form>
         </article>
     </div>
     <!-- FOOTER -->
@@ -280,12 +267,14 @@
     </aside>
     <!-- JQUERY -->
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <!-- BACKSTRETCH (BG IMAGE) -->
-    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+    <!-- YOUTUBE VIDEO -->
+    <script type="text/javascript" src="js/youtube-player.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
-            "use strict";
-            jQuery('#cv-page-left').backstretch("images/photos/1200.png");
+            if (jQuery(window).width() > 1024) {
+                jQuery('body').find(".cv-youtube-player").mb_YTPlayer();
+            }
         });
     </script>
     <!-- TOOLTIPS -->
@@ -294,6 +283,8 @@
     <script type="text/javascript" src="js/scrollbar.js"></script>
     <!-- LIGHTGALLERY -->
     <script type="text/javascript" src="js/lightgallery.js"></script>
+    <!-- ACCORDION -->
+    <script type="text/javascript" src="js/accordion.js"></script>
     <!-- FLICKR -->
     <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
     <!-- CUSTOM JS -->

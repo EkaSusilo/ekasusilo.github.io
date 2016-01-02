@@ -1,4 +1,4 @@
-// GALLERY miniature BLDC controller
+// GALLERY 1
 jQuery('#gallery1').on('click', function (e) {
     "use strict";
     e.preventDefault();
@@ -30,7 +30,7 @@ jQuery('#gallery1').on('click', function (e) {
     });
 });
 
-// GALLERY Miniature wireless BLDC controller
+// GALLERY 2
 jQuery('#gallery2').on('click', function (e) {
     "use strict";
     e.preventDefault();
@@ -68,7 +68,7 @@ jQuery('#gallery2').on('click', function (e) {
     });
 });
 
-// GALLERY Voice command capsule robot
+// GALLERY 3
 jQuery('#gallery3').on('click', function (e) {
     "use strict";
     e.preventDefault();
@@ -93,6 +93,44 @@ jQuery('#gallery3').on('click', function (e) {
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/watch?v=c6EiOUmYdBY',
             "subHtml": "Voice command on capsule robot while wearing a 'very thick' surgical mask"
+        }]
+    });
+});
+
+// GALLERY 4
+jQuery('#gallery4').on('click', function (e) {
+    "use strict";
+    e.preventDefault();
+    jQuery(this).lightGallery({
+        // Settings
+        dynamic: true,
+        mode: 'lg-slide-vertical',
+        zoom: false,
+        fullScreen: false,
+        autoplay: true,
+        pause: 4000,
+        thumbnail: false,
+        download: false,
+        counter: true,
+        // Images
+        dynamicEl: [{
+            'src': 'images/portfolio/snappy1_800.jpg',
+            'subHtml': 'Snappy modular robotics kit'
+        }, {
+            'src': 'images/portfolio/snappy2_800.jpg',
+            'subHtml': 'Snappy modular robotics kit'
+        }, {
+            'src': 'images/portfolio/snappy3_800.jpg',
+            'subHtml': 'Snappy - quick stacking modules with magnetic contacts'
+        }, {
+            'src': 'images/portfolio/snappy4_800.jpg',
+            'subHtml': 'Snappy 2-on-2 robot soccer game'
+        }, {
+            'src': 'images/portfolio/snappy5_800.jpg',
+            'subHtml': 'Kit includes Arduino shield and wall charger'
+        }, {
+            'src': 'images/portfolio/snappy6_800.jpg',
+            'subHtml': 'Kit includes maze walls and robo ball'
         }]
     });
 });

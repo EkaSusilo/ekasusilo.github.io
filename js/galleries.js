@@ -1,5 +1,5 @@
 // GALLERY miniature BLDC controller
-jQuery('#gallery_bldc').on('click', function (e) {
+jQuery('#gallery1').on('click', function (e) {
     "use strict";
     e.preventDefault();
     jQuery(this).lightGallery({
@@ -31,7 +31,7 @@ jQuery('#gallery_bldc').on('click', function (e) {
 });
 
 // GALLERY Miniature wireless BLDC controller
-jQuery('#gallery_wbldc').on('click', function (e) {
+jQuery('#gallery2').on('click', function (e) {
     "use strict";
     e.preventDefault();
     jQuery(this).lightGallery({
@@ -69,7 +69,7 @@ jQuery('#gallery_wbldc').on('click', function (e) {
 });
 
 // GALLERY Voice command capsule robot
-jQuery('#gallery_voice_command').on('click', function (e) {
+jQuery('#gallery3').on('click', function (e) {
     "use strict";
     e.preventDefault();
     jQuery(this).lightGallery({

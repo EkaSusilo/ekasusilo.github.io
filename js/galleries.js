@@ -24,7 +24,7 @@ jQuery('#gallery1').on('click', function (e) {
             'src': 'images/portfolio/bldc3_800.jpg',
             'subHtml': 'Board diameter is 9.7mm'
         }, { // You Tube videos work only on a server.
-            'src': 'https://www.youtube.com/watch?v=x5mda9hJNuQ',
+            'src': 'https://www.youtube.com/embed/x5mda9hJNuQ',
             'subHtml': 'Controling Namiki 2mm diameter BLDC motor'
         }]
     });
@@ -85,13 +85,13 @@ jQuery('#gallery3').on('click', function (e) {
         counter: true,
         // Images
         dynamicEl: [{
-            'src': 'http://www.youtube.com/embed/11lk4Q6Ex5g',
+            'src': 'https://www.youtube.com/embed/11lk4Q6Ex5g',
             'subHtml': 'Voice command on capsule robot without a surgical mask'
         }, { // You Tube videos work only on a server.
-            'src': 'http://www.youtube.com/embed/6_I4Q-urKjc',
+            'src': 'https://www.youtube.com/embed/pOWsAzsWrzQ',
             'subHtml': 'Voice command on capsule robot while wearing a surgical mask'
         }, { // You Tube videos work only on a server.
-            'src': 'http://www.youtube.com/embed/c6EiOUmYdBY',
+            'src': 'https://www.youtube.com/embed/c6EiOUmYdBY',
             "subHtml": "Voice command on capsule robot while wearing a 'very thick' surgical mask"
         }]
     });

@@ -88,7 +88,7 @@ jQuery('#gallery3').on('click', function (e) {
             'src': 'https://www.youtube.com/watch?v=11lk4Q6Ex5g',
             'subHtml': 'Voice command on capsule robot without a surgical mask'
         }, { // You Tube videos work only on a server.
-            'src': 'https://www.youtube.com/watch?v=1JYSGsY_G3U',
+            'src': 'https://www.youtube.com/watch?v=6_I4Q-urKjc',
             'subHtml': 'Voice command on capsule robot while wearing a surgical mask'
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/watch?v=c6EiOUmYdBY',

@@ -22,19 +22,19 @@ jQuery('#gallery1').on('click', function (e) {
             'subHtml': 'Double sided soldering with total thickness of 2.35mm'
         }, {
             'src': 'images/portfolio/bldc3_800.jpg',
-            'subHtml': 'Weighing only 0.28grams, able to control 2 Brushless DC motors'
+            'subHtml': 'Weighing only 0.28grams, able to control 2 brushless DC motors'
         }, {
             'src': 'images/portfolio/bldc4_800.jpg',
-            'subHtml': "Comparison to 4mm Namiki Brushless DC controller board"
+            'subHtml': "Comparison to 4mm Namiki brushless DC controller board"
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/QTG2tQozBTE',
-            'subHtml': 'Controling Smoovy 3mm diameter Brushless DC motor in stepping mode'
+            'subHtml': 'Controling Smoovy 3mm diameter brushless DC motor in stepping mode'
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/QTG2tQozBTE',
-            'subHtml': 'Controling Smoovy 3mm diameter Brushless DC motor in continuous mode'
+            'subHtml': 'Controling Smoovy 3mm diameter brushless DC motor in continuous mode'
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/x5mda9hJNuQ',
-            'subHtml': 'Controling Namiki 2mm diameter Brushless DC motor'
+            'subHtml': 'Controling Namiki 2mm diameter brushless DC motor'
         }]
     });
 });
@@ -102,7 +102,7 @@ jQuery('#gallery3').on('click', function (e) {
         download: false,
         counter: true,
         // Images
-        dynamicEl: [{
+        dynamicEl: [{ // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/11lk4Q6Ex5g',
             'subHtml': 'Voice command on capsule robot without a surgical mask'
         }, { // You Tube videos work only on a server.
@@ -152,6 +152,32 @@ jQuery('#gallery4').on('click', function (e) {
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/xvFblfu8p7U',
             'subHtml': 'Snappy - the winner of Silicon Laboratories IoT Contest'
+        }]
+    });
+});
+
+// GALLERY 5
+jQuery('#gallery5').on('click', function (e) {
+    "use strict";
+    e.preventDefault();
+    jQuery(this).lightGallery({
+        // Settings
+        dynamic: true,
+        mode: 'lg-slide-vertical',
+        zoom: false,
+        fullScreen: false,
+        autoplay: false,
+        pause: 4000,
+        thumbnail: false,
+        download: false,
+        counter: true,
+        // Images
+        dynamicEl: [{ // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/gWF5xiHhD1c',
+            'subHtml': 'Master and slave microgrippers doing synchronized motion'
+        }, { // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/MkD9CRRetyc',
+            'subHtml': 'Master and slave microgrippers doing synchronized motion'
         }]
     });
 });

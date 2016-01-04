@@ -16,16 +16,25 @@ jQuery('#gallery1').on('click', function (e) {
         // Images
         dynamicEl: [{
             'src': 'images/portfolio/bldc1_800.jpg',
-            'subHtml': 'Four layers rigid-flex material'
+            'subHtml': 'Four layers rigid-flex material at 10.8mm diameter'
         }, {
             'src': 'images/portfolio/bldc2_800.jpg',
-            'subHtml': 'Board thickness is 0.5mm'
+            'subHtml': 'Double sided soldering with total thickness of 2.35mm'
         }, {
             'src': 'images/portfolio/bldc3_800.jpg',
-            'subHtml': 'Board diameter is 9.7mm'
+            'subHtml': 'Weighing only 0.28grams, able to control 2 Brushless DC motors'
+        }, {
+            'src': 'images/portfolio/bldc4_800.jpg',
+            'subHtml': "Comparison to 4mm Namiki Brushless DC controller board"
+        }, { // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/QTG2tQozBTE',
+            'subHtml': 'Controling Smoovy 3mm diameter Brushless DC motor in stepping mode'
+        }, { // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/QTG2tQozBTE',
+            'subHtml': 'Controling Smoovy 3mm diameter Brushless DC motor in continuous mode'
         }, { // You Tube videos work only on a server.
             'src': 'https://www.youtube.com/embed/x5mda9hJNuQ',
-            'subHtml': 'Controling Namiki 2mm diameter BLDC motor'
+            'subHtml': 'Controling Namiki 2mm diameter Brushless DC motor'
         }]
     });
 });
@@ -48,22 +57,31 @@ jQuery('#gallery2').on('click', function (e) {
         // Images
         dynamicEl: [{
             'src': 'images/portfolio/wbldc1_800.jpg',
-            'subHtml': 'Four layers FR4 material'
+            'subHtml': 'Wireless electronics smaller than a shirt button'
         }, {
             'src': 'images/portfolio/wbldc2_800.jpg',
-            'subHtml': 'Board thickness is 0.5mm'
+            'subHtml': 'Wireless 802.15.4 devices on rice grain'
         }, {
             'src': 'images/portfolio/wbldc3_800.jpg',
-            'subHtml': 'Board diameter is 9.7mm'
+            'subHtml': 'Board diameter is 9.7mm and 0.5mm thick'
         }, {
             'src': 'images/portfolio/wbldc4_800.jpg',
-            'subHtml': 'Wireless controller is energy efficient'
+            'subHtml': 'It is capable of driving 2 brushless DC motors or 4 DC motors with brushes'
         }, {
             'src': 'images/portfolio/wbldc5_800.jpg',
-            'subHtml': 'It is an IoT device powered by a coin battery'
+            'subHtml': 'An IoT device powered by coin cells that last for years'
         }, {
             'src': 'images/portfolio/wbldc6_800.jpg',
-            'subHtml': 'Actual size of BLDC wireless controller'
+            'subHtml': 'Wireless controller for micro submarine with 4 propellers'
+        }, {
+            'src': 'images/portfolio/wbldc7_800.jpg',
+            'subHtml': 'Embedded inside medical capsule robot with legs'
+        }, {
+            'src': 'images/portfolio/wbldc8_800.jpg',
+            'subHtml': 'Being used by capsule robot to release a surgical clips'
+        }, {
+            'src': 'images/portfolio/wbldc9_800.jpg',
+            'subHtml': 'A series of wireless modules with some sets of actuator driving and sensing'
         }]
     });
 });
@@ -107,7 +125,7 @@ jQuery('#gallery4').on('click', function (e) {
         mode: 'lg-slide-vertical',
         zoom: false,
         fullScreen: false,
-        autoplay: true,
+        autoplay: false,
         pause: 4000,
         thumbnail: false,
         download: false,
@@ -131,6 +149,9 @@ jQuery('#gallery4').on('click', function (e) {
         }, {
             'src': 'images/portfolio/snappy6_800.jpg',
             'subHtml': 'Kit includes maze walls and robo ball'
+        }, { // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/xvFblfu8p7U',
+            'subHtml': 'Snappy - the winner of Silicon Laboratories IoT Contest'
         }]
     });
 });

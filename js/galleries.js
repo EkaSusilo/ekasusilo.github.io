@@ -181,3 +181,41 @@ jQuery('#gallery5').on('click', function (e) {
         }]
     });
 });
+
+// GALLERY 6
+jQuery('#gallery6').on('click', function (e) {
+    "use strict";
+    e.preventDefault();
+    jQuery(this).lightGallery({
+        // Settings
+        dynamic: true,
+        mode: 'lg-slide-vertical',
+        zoom: false,
+        fullScreen: false,
+        autoplay: false,
+        pause: 4000,
+        thumbnail: false,
+        download: false,
+        counter: true,
+        // Images
+        dynamicEl: [{
+            'src': 'images/portfolio/babyarch1_800.jpg',
+            'subHtml': 'Baby Arachnid the Robot'
+        }, {
+            'src': 'images/portfolio/babyarch2_800.jpg',
+            'subHtml': 'Baby Arachnid the Robot'
+        }, {
+            'src': 'images/portfolio/babyarch3_800.jpg',
+            'subHtml': 'Baby Arachnid the Robot'
+        }, {
+            'src': 'images/portfolio/babyarch4_800.jpg',
+            'subHtml': 'Baby Arachnid the Robot'
+        }, {
+            'src': 'images/portfolio/babyarch5_800.jpg',
+            'subHtml': 'Baby Arachnid the Robot'
+        }, { // You Tube videos work only on a server.
+            'src': 'https://www.youtube.com/embed/ze8FI65YCnk',
+            'subHtml': 'Baby Arachnid the Robot'
+        }]
+    });
+});

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Eka Susilo - Personal Vcard Resume</title>
+    <title>Eka Susilo - Personal Projects and Resume</title>
     <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -24,8 +24,13 @@
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5.js"></script>
     <![endif]-->
-    <!-- GOOGLE MAP -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <!-- LEAFLET MAP -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
     <!-- NOSCRIPT -->
     <noscript>
         <link href="css/nojs.css" rel="stylesheet" type="text/css">
@@ -83,9 +88,9 @@
             <img src="images/photos/schematic_pcb_1200.jpg" alt="">
             <!-- 6. SLIDE -->
             <div>
-                <!-- GOOGLE MAP -->
-                <div class="google-map-container">
-                    <div id="google-map"></div>
+                <!-- LEAFLET MAP -->
+                <div class="leaflet-map-container">
+                    <div id="leaflet-map"></div>
                 </div>
             </div>
         </div>
@@ -621,7 +626,7 @@
         </section>
         <!-- PAGE 6 -->
         <section class="floor floor-6">
-            <!-- MOBILE GOOGLE MAP -->
+            <!-- MOBILE LEAFLET MAP -->
             <div class="mobile-map-container">
                 <div id="mobile-map"></div>
             </div>
@@ -842,8 +847,8 @@
     <script type="text/javascript" src="js/galleries.js"></script>
     <!-- FLICKR -->
     <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
-    <!-- GOOGLE MAP -->
-    <script type="text/javascript" src="js/googlemap.js"></script>
+    <!-- LEAFLET MAP -->
+    <script type="text/javascript" src="js/leafletmap.js"></script>
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="js/home-custom.js"></script>
 </body>

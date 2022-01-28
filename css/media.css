@@ -115,7 +115,7 @@
     #footer {
         width: 60%;
     }
-    #google-map {
+    #leaflet-map {
         width: calc(100% - 5em);
         margin-left: 5em;
     }

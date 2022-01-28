@@ -998,14 +998,14 @@ form .cv-button {
     font-size: 18px;
 }
 /* ================= CONTACT ================== */
-.google-map-container {
+.leaflet-map-container {
     position: relative;
     margin:0px;
     padding: 0px;
     width: 100%;
     height: 100%;
 }
-#google-map {
+#leaflet-map {
     position: absolute;
     top:0px;
     left:0px;
